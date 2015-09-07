@@ -17,13 +17,22 @@ Multi-outlet or any other spare extension cord you can cut to splice into the re
 
 
 1) Arduino needs to be set up(ie. loaded) with the sketch at GitHub.
+
 2) A way to get batter state. In my particular laptop (Acer C720 on Crouton), this is how: 
+
 cat /sys/class/power_supply/BAT0/capacity
+
 cat /sys/class/power_supply/BAT0/status
+
 3) Download the files to ~/bin folder: battery-checker.sh, relaytest.py
+
 4) Edit the python file if the serial port to Arduino is different from /dev/ttyUSB0
+
 5) Check arduino-python communication by running : 'python ~/bin/relaytest.py 1' (which turns relay on)
-6) All set, run the batttery-checker.sh (need to run 'chmod +x ~/bin/battery-checker.sh' first), which will open two terminal windows. One is needed to suck out all the serial buffer stream Arduino is spitting out to the laptop... for some reason the script won't run without getting that out. 
+
+6) All set, run the batttery-checker.sh (need to run 'chmod +x ~/bin/battery-checker.sh' first), which will open two terminal windows. One is needed to suck out all the serial buffer stream Arduino is spitting out to the laptop... for some reason the script won't run without getting that out.
+
 7) Arrange the charger and multi-outlet as seen in video
+
 8) Now you don't have to touch the adapter ever, knowing in full confidence that it will start charging at 15%, and stop charging at 100%!!!
 
