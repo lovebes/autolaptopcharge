@@ -1,6 +1,6 @@
 #!/bin/bash
 
-xfce4-terminal -e "tail -f /dev/ttyUSB0"
+xfce4-terminal -e "tail -f /dev/ttyUSB0"  #depending on your Linux distro, change accordningly to your terminal emulator
 
 while [[ true ]];
 do
