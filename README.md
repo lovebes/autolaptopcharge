@@ -11,11 +11,17 @@ So, for my trustworthy, traveler-prone sub laptop, Acer C720 Chrooomebook, I kne
 
 Parts needed were:
 Basic Arduino Uno
+
 4-in-1 Relay board (only need one relay on that board)
+
 Some wires to connect
+
 Acer C720 needs to run crouton or Ubuntu or just any Linux 
+
 Python needs to be run, with pyserial installed
+
 Linux needs to run bash
+
 Multi-outlet or any other spare extension cord you can cut to splice into the relay (middle hole and the left hole, if looking at the holes)
 
 
