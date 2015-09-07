@@ -1,5 +1,7 @@
 # autolaptopcharge
 
+[![ScreenShot](http://img.youtube.com/vi/JI8ckyB9A28/0.jpg)](http://youtu.be/JI8ckyB9A28)
+
 Overly cautious conduct in using laptop has led to the need for charging only when needed, in order to use its lithium battery for as long as possible.
 
 While it is known that modern batteries and chargers are known to stop charging when battery is full, I have a tendency to not trust these claims, especially when I can't find any documents supporting it.
